@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "SN40PZrIa5WFjd6dQgSt81H0zyJ9y797SGSJIcr6RAufPC0UV/8S9oFE26gR9FO+BCOuRnQzPpbYJsIjoZMy0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tommy\\Desktop\\CodeStack Academy 23-24\\Challenges\\MiniChallenge2to4\\MiniChallenge2to4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tommy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "C:\\Users\\tommy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\tommy\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\tommy\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\tommy\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\tommy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\tommy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
