@@ -22,7 +22,7 @@ namespace MiniChallenge2to4.Services.Sum
             }
             else
             {
-                return "invalid input";
+                return "invalid input. Please enter a number";
             }
 
         }

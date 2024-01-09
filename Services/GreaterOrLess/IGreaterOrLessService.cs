@@ -7,6 +7,6 @@ namespace MiniChallenge2to4.Services.GreaterOrLess
 {
     public interface IGreaterOrLessService
     {
-        public string Expressions(string FirstNumber, string SecondNumber);
+        public string Expressions(string firstNumber, string secondNumber);
     }
 }

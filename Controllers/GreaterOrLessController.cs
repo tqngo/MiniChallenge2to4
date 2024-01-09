@@ -16,9 +16,9 @@ public class GreaterOrLessController : ControllerBase
     [HttpGet]
     [Route("Expressions/{FirstNumber}/{SecondNumber}")]
 
-    public string Expressions(string FirstNumber, string SecondNumber)
+    public string Expressions(string firstNumber, string secondNumber)
     {
-        return _greaterOrLessService.Expressions(FirstNumber, SecondNumber);
+        return _greaterOrLessService.Expressions(firstNumber, secondNumber);
         
     }
 }

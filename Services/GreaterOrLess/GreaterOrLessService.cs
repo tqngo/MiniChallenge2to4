@@ -4,26 +4,26 @@ namespace MiniChallenge2to4.Services.GreaterOrLess
     {
 
 
-        public string Expressions(string FirstNumber, string SecondNumber)
+        public string Expressions(string firstNumber, string secondNumber)
         {
             int firstNum = 0;
             int secondNum = 0;
 
-            bool realNum = int.TryParse(FirstNumber, out firstNum) && int.TryParse(SecondNumber, out secondNum);
+            bool realNum = int.TryParse(firstNumber, out firstNum) && int.TryParse(secondNumber, out secondNum);
 
             if (realNum == true)
             {
                 if (firstNum > secondNum)
                 {
-                    return FirstNumber + " is greater than " + SecondNumber + "\n" + SecondNumber + " is less than " + FirstNumber;
+                    return firstNumber + " is greater than " + secondNumber + "\n" + secondNumber + " is less than " + firstNumber;
                 }
-                else if (FirstNumber == SecondNumber)
+                else if (firstNumber == secondNumber)
                 {
-                    return FirstNumber + " is equal to " + SecondNumber + "\n" + SecondNumber + " is equal to " + FirstNumber;
+                    return firstNumber + " is equal to " + secondNumber + "\n" + secondNumber + " is equal to " + firstNumber;
                 }
                 else
                 {
-                    return FirstNumber + " is less than " + SecondNumber + "\n" + SecondNumber + " is greater than " + FirstNumber;
+                    return firstNumber + " is less than " + secondNumber + "\n" + secondNumber + " is greater than " + firstNumber;
                 }
             }
             else
